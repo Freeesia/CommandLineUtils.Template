@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageId>StudioFreesia.CommandLineUtils.Template</PackageId>
+    <Title>CommandLineUtils Template</Title>
+    <Authors>Freesia</Authors>
+    <Description>Template to use when creating an console app using McMaster.Extensions.CommandLineUtils.</Description>
+    <PackageTags>dotnet-new;templates;console;CommandLineUtils;</PackageTags>
+
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+</Project>
