@@ -7,6 +7,7 @@
     <Authors>Freesia</Authors>
     <Description>Template to use when creating an console app using McMaster.Extensions.CommandLineUtils.</Description>
     <PackageTags>dotnet-new;templates;console;CommandLineUtils;</PackageTags>
+    <Version Condition="'$(Version)' == '">0.0.0-local</Version>
 
     <TargetFramework>netcoreapp3.1</TargetFramework>
 
