@@ -3,7 +3,7 @@
   "author": "Freesia",
   "classifications": ["Console"],
   "name": "CommandLineUtils Template",
-  "identity": "Studiofreesia.CommandLineUtils.Template",
+  "identity": "StudioFreesia.CommandLineUtils.Template",
   "groupIdentity": "MyProject.01.Sample",
   "shortName": "cmd-utils",
   "tags": {
