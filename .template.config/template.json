@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Freesia",
+  "classifications": ["Console"],
+  "name": "CommandLineUtils Template",
+  "identity": "Studiofreesia.CommandLineUtils.Template",
+  "groupIdentity": "MyProject.01.Sample",
+  "shortName": "cmd-utils",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "CommandLineUtilsTemplate",
+  "preferNameDirectory": true
+}
