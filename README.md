@@ -16,6 +16,7 @@ dotnet new -i StudioFreesia.CommandLineUtils.Template
 
 ```bash
 dotnet new cmd-utils -n <ProjectName>
+dotnet restore <ProjectName>
 ```
 
 ## Example
